@@ -1,0 +1,8 @@
+framework module ModuleFrameworkTwo {
+    umbrella header "ModuleFrameworkTwo.h"
+    header "PrywatnaFramework.h"
+    
+    export *
+    module * { export * }
+    
+}
